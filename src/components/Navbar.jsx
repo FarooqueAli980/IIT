@@ -130,7 +130,7 @@ export default function Navbar() {
         {/* MOBILE MENU */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out bg-white border-t ${
-            isOpen ? "max-h-96 opacity-100 py-3" : "max-h-0 opacity-0 py-0"
+            isOpen ? "max-h-120 opacity-100 py-3" : "max-h-0 opacity-0 py-0"
           }`}
         >
           <div className="px-3 space-y-1">
